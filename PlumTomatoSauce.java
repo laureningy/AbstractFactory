@@ -1,6 +1,6 @@
 public class PlumTomatoSauce extends Sauce {
     
-    public PlumTomatoSauce(String sauce){
-        super(sauce);
+    public PlumTomatoSauce(){
+        super("Plum Tomato Sauce");
     }
 }

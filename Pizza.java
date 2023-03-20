@@ -5,6 +5,8 @@ public abstract class Pizza {
     Sauce sauce;
     Cheese cheese;
     Clam clam;
+    Veggie veggie;
+    Pepperoni pepperoni;
     /*
      * This is copied from provided stub code but it is missing variables
      * Veggie veggie;
@@ -16,8 +18,9 @@ public abstract class Pizza {
     void box() {System.out.println("Place pizza in official PizzaStore box");}
     void setName(String name) { this.name = name;}
     String getName() { return name;}
+
     public String toString() {
-    // code to print pizza here
-    return name + " " + dough.toString() + 
+        // code to print pizza here
+        return name + " with " + dough.toString() + ", " + sauce.toString() + ", "; 
     }
 }

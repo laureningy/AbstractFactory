@@ -11,5 +11,10 @@ public class CheesePizza extends Pizza {
         sauce = ingredientFactory.createSauce();
         cheese = ingredientFactory.createCheese();
     }
+
+    @Override
+     public String toString(){
+        return super.toString() + cheese.toString();
+     }
 }
 

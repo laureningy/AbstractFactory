@@ -1,26 +1,15 @@
 public abstract class PizzaIngredientFactory{
 
-    abstract Dough createDough(){
+    abstract Dough createDough();
 
-    }
+    abstract Sauce createSauce();
 
-    abstract Sauce createSauce(){
+    abstract Cheese createCheese();
 
-    }
+    abstract Veggie createVeggies();
 
-    abstract Cheese createCheese(){
+    abstract Pepperoni createPepperoni();
 
-    }
-
-    abstract Veggie createVeggies(){
-
-    }
-
-    abstract Pepperoni createPepperoni(){
-
-    }
-
-    abstract Clam createClam(){
-
-    }
+    abstract Clam createClam();
+    
 }
