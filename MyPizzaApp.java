@@ -1,3 +1,4 @@
+//Lauren Ingraham, Sohan Chatterjee, Chris Roddy
 import java.util.Scanner;
 public class MyPizzaApp{
 
