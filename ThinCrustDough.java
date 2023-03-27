@@ -1,7 +1,7 @@
-public class ThinCrustDough extends Dough{
+public class ThinCrustDough implements Dough{
    
-    public ThinCrustDough(){
-        super("Thin Crust");
-    }
+    public String toString() {
+		return "ThinCrust style extra thin crust dough";
+	}
 
 }

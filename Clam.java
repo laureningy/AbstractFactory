@@ -1,10 +1,3 @@
-public class Clam {
-    Clam(){
+public abstract class Clam {
 
-    }
-    
-    @Override
-    public String toString(){
-        return "Clam";
-    }
 }

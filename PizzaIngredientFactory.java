@@ -1,15 +1,10 @@
-public abstract class PizzaIngredientFactory{
+public interface PizzaIngredientFactory{
 
-    abstract Dough createDough();
-
-    abstract Sauce createSauce();
-
-    abstract Cheese createCheese();
-
-    abstract Veggie createVeggies();
-
-    abstract Pepperoni createPepperoni();
-
-    abstract Clam createClam();
+    public Dough createDough();
+	public Sauce createSauce();
+	public Cheese createCheese();
+	public Veggies[] createVeggies();
+	public Pepperoni createPepperoni();
+	public Clam createClam();
     
 }

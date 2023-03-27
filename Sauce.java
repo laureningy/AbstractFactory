@@ -1,12 +1,3 @@
-public class Sauce {
-    String sauce;
+public abstract class Sauce {
 
-    public Sauce(String sauce){
-        this.sauce = sauce;
-    }
-
-    @Override
-    public String toString(){
-        return sauce;
-    }
 }

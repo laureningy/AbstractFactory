@@ -1,33 +1,28 @@
-public class ChicagoPizzaIngredientFactory extends PizzaIngredientFactory{
+public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory{
 
-    @Override
-    Dough createDough() {
+    public Dough createDough() {
         return new ThickCrustDough();
     }
 
-    @Override
-    Sauce createSauce() {
+    public Sauce createSauce() {
         return new PlumTomatoSauce();
     }
 
-    @Override
-    Cheese createCheese() {
-        return new Cheese();
+    public Cheese createCheese() {
+        return new ReggianoCheese();
     }
 
-    @Override
-    Veggie createVeggies() {
-        return new Veggie();
+    public Veggies[] createVeggies() {
+        Veggies[] veggies = {new Garlic(), new Mushroom(), new RedPepper(), new Onion()};
+        return veggies;
     }
 
-    @Override
-    Pepperoni createPepperoni() {
-        return new Pepperoni();
+    public Pepperoni createPepperoni() {
+        return new SlicedPepperoni();
     }
 
-    @Override
-    Clam createClam() {
-        return new Clam();
+    public Clam createClam() {
+        return new FrozenClams();
     }
     
 

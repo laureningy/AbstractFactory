@@ -1,10 +1,4 @@
-public class Cheese {
-    Cheese(){
+public abstract class Cheese {
 
-    }
-
-    @Override
-    public String toString(){
-        return "Cheese";
-    }
+ 
 }

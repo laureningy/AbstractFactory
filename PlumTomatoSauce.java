@@ -1,6 +1,7 @@
 public class PlumTomatoSauce extends Sauce {
     
-    public PlumTomatoSauce(){
-        super("Plum Tomato Sauce");
+    @Override
+    public String toString(){
+        return "Plum Tomato Sauce";
     }
 }

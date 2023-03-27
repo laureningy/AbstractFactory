@@ -13,8 +13,4 @@ public class ClamPizza extends Pizza {
     clam = ingredientFactory.createClam();
     }
 
-    @Override
-     public String toString(){
-        return super.toString() + clam.toString();
-     }
 }    
