@@ -9,7 +9,7 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 	}
  
 	public Cheese createCheese() {
-		return new ReggianoCheese();
+		return new MozzarellaCheese();
 	}
  
 	public Veggies[] createVeggies() {
